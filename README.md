@@ -1,9 +1,10 @@
 # Maea's Profile Page
 
-This is a simple profile page about me. I am mainly using flex box for this project.
+This is a simple profile page about me.
 
 ## MUST READ
 
+I am mainly using flex box for this project.
 This project is not done yet.
 
 ##
