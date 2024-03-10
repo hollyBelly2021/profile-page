@@ -9,7 +9,15 @@ This project is not done yet.
 
 ##
 
+### Built with:
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
 ### What I learned:
+
+03/09/24:
 
 - ```css
   .container-header {
@@ -45,18 +53,51 @@ This project is not done yet.
   ```
   - using CANVA
 
-### Built with:
+03/10/24:
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- ```css
+  .logo-maea,
+  .profile-image-styles,
+  .logo-styles {
+    max-width: 100%;
+    height: auto;
+  }
+  ```
+  - To make an image responsive regardless of the window size,
+    - max-width: 100%; ensures that the image will never exceed the width of its container.
+    - height: auto; maintains the aspect ratio of the image, so it will scale proportionally with the width.
+- ```html
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="30"
+    height="30"
+    fill="currentColor"
+    class="icons bi bi-facebook"
+    viewBox="0 0 16 16"
+  ></svg>
+  ```
+  - Adding Icons:
+    - download the svg file from bootstrap to edit.
+    - change height and width.
+    - added a customize class to change the color.
+
+### Updates:
+
+03/10/24:
+
+-Fixed bugs and I added a footer section for contacts
 
 ### Future Update:
 
 03/09/24:
 
-- Skill section
+- Project section
 - Contact section
+- Sticky Navbar
+
+03/10/24:
+
+- Continuation of contact section
 - Sticky Navbar
 
 ## Author

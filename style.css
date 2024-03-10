@@ -74,7 +74,7 @@ a {
   justify-content: center;
   margin-top: 30px;
 
-  gap: 50px;
+  gap: 70px;
 
   margin-bottom: 50px;
 }
@@ -131,7 +131,37 @@ a {
 .projects-desc-container {
   flex-basis: 400px;
 }
+
+.container-contacts {
+  display: flex;
+  /* justify-content: center; */
+  height: 30vh;
+  flex-direction: column;
+
+  background-color: #607274;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.container-contacts h2 {
+  color: #faeed1;
+  margin-top: 20px;
+}
+
+.icons {
+  /* width: 30px; */
+  color: #faeed1;
+}
+
 @media (max-width: 720px) {
+  .logo-maea,
+  .profile-image-styles,
+  .logo-styles {
+    max-width: 100%;
+    height: auto;
+  }
+
   .container-about {
     display: flex;
     flex-direction: column;
@@ -161,7 +191,7 @@ a {
   .projects-desc-container {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    /* width: 500px; */
     align-items: center;
     gap: 10px;
     margin: 0px 50px 50px 50px;
