@@ -85,7 +85,8 @@ This project is not done yet.
 
 03/10/24:
 
--Fixed bugs and I added a footer section for contacts
+- Fixed bugs and I added a footer section for contacts
+- Made the images responsive
 
 ### Future Update:
 
