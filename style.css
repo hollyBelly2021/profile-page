@@ -130,12 +130,14 @@ a {
 
 .projects-desc-container {
   flex-basis: 400px;
+  margin-right: 50px;
+  text-align: left;
 }
 
 .container-contacts {
   display: flex;
   /* justify-content: center; */
-  height: 30vh;
+  height: 20vh;
   flex-direction: column;
 
   background-color: #607274;
@@ -148,7 +150,11 @@ a {
   color: #faeed1;
   margin-top: 20px;
 }
-
+.container-icon {
+  display: flex;
+  gap: 10px;
+  /* gap: 20px; */
+}
 .icons {
   /* width: 30px; */
   color: #faeed1;
@@ -195,5 +201,10 @@ a {
     align-items: center;
     gap: 10px;
     margin: 0px 50px 50px 50px;
+  }
+
+  .container-contacts h2 {
+    /* margin-left: 50px; */
+    text-align: center;
   }
 }
