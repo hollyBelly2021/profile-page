@@ -4,8 +4,7 @@ This is a simple profile page about me.
 
 ## MUST READ
 
-I am mainly using flex box for this project.
-This project is not done yet.
+I did this project so I could practice HTML5, CSS, Flexbox, color theory.
 
 ##
 
@@ -64,8 +63,8 @@ This project is not done yet.
   }
   ```
   - To make an image responsive regardless of the window size,
-    - max-width: 100%; ensures that the image will never exceed the width of its container.
-    - height: auto; maintains the aspect ratio of the image, so it will scale proportionally with the width.
+    - `max-width: 100%;` ensures that the image will never exceed the width of its container.
+    - `height: auto;` maintains the aspect ratio of the image, so it will scale proportionally with the width.
 - ```html
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -81,12 +80,27 @@ This project is not done yet.
     - change height and width.
     - added a customize class to change the color.
 
+03/11/24
+
+- ```css
+  .container-contacts h2 {
+    /* margin-left: 50px; */
+    text-align: center;
+  }
+  ```
+  - I was having a hard time centering the text then I remember about `text-align: center`
+
 ### Updates:
 
 03/10/24:
 
 - Fixed bugs and I added a footer section for contacts
 - Made the images responsive
+
+03/11/24:
+
+- Fixed minor bugs
+- Finished contact section
 
 ### Future Update:
 
@@ -100,6 +114,10 @@ This project is not done yet.
 
 - Continuation of contact section
 - Sticky Navbar
+
+03/11/24
+
+- Sticky Navbar (will do this if I have a lot of project listed.)
 
 ## Author
 
