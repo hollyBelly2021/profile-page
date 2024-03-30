@@ -6,4 +6,5 @@ window.addEventListener("scroll", function () {
   } else {
     $(".main-navbar").removeClass("show");
   }
+  prevScrollPos = currentScrollPos;
 });
