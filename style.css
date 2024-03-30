@@ -237,6 +237,10 @@ nav .fa-bars {
     display: block;
   }
 
+  nav .navbar a:hover {
+    background: #ecb159;
+  }
+
   .logo-maea,
   .profile-image-styles,
   .logo-styles {
